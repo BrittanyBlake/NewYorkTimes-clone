@@ -39,3 +39,23 @@ img{
     margin-top: -20px;
 
 }
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+#title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.image_title{
+    height: 34em;
+    width: 59em;
+}
