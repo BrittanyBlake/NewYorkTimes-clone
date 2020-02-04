@@ -4,7 +4,7 @@ nav{
     font-weight:600;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1.5px solid rgb(243 243 243);
+    border-bottom: 1.5px solid rgb(102 102 102);
     }
 
     header{
@@ -59,3 +59,154 @@ img{
     height: 34em;
     width: 59em;
 }
+
+.caption{
+    text-align: left;
+    margin-left: -170px;
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(102 102 102);
+    line-height: 20px;
+}
+
+.credit{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(136 136 136);
+    line-height: 18px;
+}
+
+.main_content{
+   display:grid; 
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: auto;
+
+
+
+}
+
+.author{
+    grid-column: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(51 51 51);
+}
+
+.author a{
+    text-decoration-color: rgb(51 51 51);
+    color: black;
+}
+
+.date{
+    grid-column: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(51 51 51);
+
+}
+.main_icons{
+    grid-column: 3;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+
+    
+    
+}
+
+.fab{
+    padding: 14px;
+    border: 1px solid rgb(238,238,238);
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: rgb(238,238,238);
+}
+
+.paragraph_one{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+}
+
+.paragraph_one  p,h3, .more_articles{
+    grid-column: 2/4;
+}
+
+.more_articles{
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+color: rgb(51 51 51);
+line-height: 19px;
+text-align: center;
+
+}
+
+.more_articles a{
+    color: rgb(50,104,145);
+    text-decoration: none;
+    line-height: 19px;
+
+}
+
+.more_articles hr{
+    width: 100px;
+}
+
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: rgb(51 51 51);
+}
+
+.paragraph_one a{
+    color: rgb(50,104,145);
+}
+
+
+aside{
+    grid-column: 4;
+    
+
+}
+
+aside h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+aside a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(51 51 51);
+}
+
+aside img{
+    height: 120px;
+    width: 120px;
+}
+/* aside hr{
+    
+} */
+aside ul{
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+
+
+
