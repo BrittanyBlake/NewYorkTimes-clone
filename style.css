@@ -94,6 +94,10 @@ img {
   color: rgb(51 51 51);
 }
 
+aside a {
+  text-decoration: none;
+}
+
 .author a {
   text-decoration-color: rgb(51 51 51);
   color: black;
@@ -137,10 +141,6 @@ aside p {
   display: flex;
 }
 
-aside a {
-  text-decoration: none;
-}
-
 .paragraph_one p,
 h3,
 .more_articles {
@@ -166,8 +166,6 @@ h3,
   width: 100px;
 }
 
-
-
 .main_content p,
 .paragraph_one p {
   font-size: 20px;
@@ -185,8 +183,6 @@ aside {
   grid-column: 4;
   margin-top: -600px;
 }
-
-
 
 aside img {
   display: flex;
