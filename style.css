@@ -106,6 +106,7 @@ img {
   font-weight: 500;
   color: rgb(51 51 51);
 }
+
 .main_content .main_icons {
   grid-column: 3;
   display: flex;
@@ -130,6 +131,14 @@ img {
 .paragraph_one {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+aside p {
+  display: flex;
+}
+
+aside a {
+  text-decoration: none;
 }
 
 .paragraph_one p,
@@ -157,6 +166,8 @@ h3,
   width: 100px;
 }
 
+
+
 .main_content p,
 .paragraph_one p {
   font-size: 20px;
@@ -175,9 +186,7 @@ aside {
   margin-top: -600px;
 }
 
-aside p {
-  display: flex;
-}
+
 
 aside img {
   display: flex;
@@ -203,10 +212,6 @@ aside span {
   font-size: 14px;
   font-weight: 500;
   color: rgb(51, 51, 51);
-}
-
-aside a {
-  text-decoration: none;
 }
 
 .second_content {
@@ -292,6 +297,7 @@ h3 {
   margin-left: 100px;
   text-decoration: none;
 }
+
 #bottom-line1 {
   width: 1200px;
   margin-top: 30px;
@@ -482,13 +488,13 @@ label {
 }
 
 form {
-  margin: 3px 0px;
+  margin: 3px 0;
   border-bottom: 1px solid black;
   padding-bottom: 220px;
 }
 
 .stories {
-  margin: 3px 0px;
+  margin: 3px 0;
   border-bottom: 1px solid black;
   padding-bottom: 173px;
 }
@@ -506,6 +512,7 @@ form {
   width: 250px;
   margin-left: -90px;
 }
+
 .row-three .img-six {
   margin-top: 15px;
   margin-left: -30px;
@@ -567,7 +574,7 @@ form {
 }
 
 .row-three {
-  margin: 3px 0px;
+  margin: 3px 0;
   padding-top: 10px;
   border-top: 1px solid black;
 }
