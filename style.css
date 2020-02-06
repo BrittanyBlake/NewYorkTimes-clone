@@ -10,10 +10,9 @@ nav {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(238, 238, 238);
-  position:fixed;
-  width:99.5vw;
+  position: fixed;
+  width: 99.5vw;
   background-color: white;
-
 }
 
 .nav-links {
@@ -56,7 +55,7 @@ img {
   font-size: 40px;
   font-weight: 700;
   font-style: italic;
-  margin-top:90px;
+  margin-top: 90px;
 }
 
 .image_title {
@@ -163,7 +162,8 @@ h3,
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
-  color: rgb(51 51 51);
+  color: rgb(51, 51, 51);
+  line-height: 30px;
 }
 
 .paragraph_one a {
@@ -300,7 +300,7 @@ h3 {
 .bottom {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr 1fr;
-  grid-template-rows: repeat(18, [row] 50px);
+  grid-template-rows: repeat(34, [row] 50px);
   grid-row-gap: 5px;
 }
 
@@ -361,6 +361,7 @@ label {
   color: rgb(50, 104, 145);
   text-decoration: none;
 }
+
 .bottom .policy {
   grid-row: 4;
   grid-column: 5;
@@ -370,12 +371,14 @@ label {
 .bottom .space {
   grid-row: 5;
 }
+
 .space h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 700px;
   color: black;
 }
+
 .articles {
   grid-row: 6 / 9;
   grid-column: 2/6;
@@ -397,6 +400,7 @@ label {
   margin-top: 15px;
   margin-left: 20px;
 }
+
 .articles p {
   margin-top: 0;
   margin-left: 0;
@@ -415,6 +419,7 @@ label {
   font-size: 12px;
   margin-right: 200px;
 }
+
 .img-two .photo-cred {
   font-size: 10px;
   margin-left: 120px;
@@ -446,6 +451,7 @@ label {
   margin-top: 15px;
   margin-left: 30px;
 }
+
 .row-two .img-five {
   margin-top: 15px;
   margin-left: 30px;
@@ -459,6 +465,7 @@ label {
   font-weight: 700;
   color: black;
 }
+
 .img-three .photo-cred {
   font-size: 10px;
   margin-left: 150px;
@@ -508,10 +515,12 @@ form {
   margin-top: 15px;
   margin-left: 120px;
 }
+
 .row-three .img-eight {
   margin-top: 15px;
   margin-left: 120px;
 }
+
 .row-three p {
   margin-top: 0;
   margin-left: -90px;
@@ -523,11 +532,14 @@ form {
 
 .img-six .photo-cred {
   font-size: 10px;
+  margin-left: -10px;
 }
+
 .img-seven .photo-cred {
   font-size: 10px;
   margin-left: -20px;
 }
+
 .img-eight .photo-cred {
   font-size: 10px;
   margin-left: -70px;
@@ -547,46 +559,152 @@ form {
   font-size: 12px;
   margin-left: -90px;
 }
+
 .editor a {
   text-decoration: none;
   color: black;
   white-space: nowrap;
 }
+
 .row-three {
   margin: 3px 0px;
   padding-top: 10px;
   border-top: 1px solid black;
 }
-.side{
+
+.side {
   grid-column: 6/8;
-  grid-row:6;
+  grid-row: 6;
   margin-top: 14px;
   display: flex;
 }
 
-.side a{ 
+.side a {
   font-size: 19px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   color: rgb(102, 102, 102);
   text-decoration: none;
 }
-.side li{
+
+.side li {
   list-style: none;
-  padding-top:20px;
+  padding-top: 20px;
   padding-bottom: 20px;
   margin-left: -200px;
-  border-top:1px solid rgb(226, 226, 226)
-
+  border-top: 1px solid rgb(226, 226, 226);
 }
 
-.side h3{
-  margin-top:-90px;
+.side h3 {
+  margin-top: -90px;
   margin-left: -10px;
-
 }
 
-#first-item{
-  margin-top:-40px;
+#first-item {
+  margin-top: -40px;
   border: none;
+}
+
+.links_list {
+  grid-row: 26;
+  grid-column: 2/7;
+  margin-left: -30px;
+}
+
+.above_footer li {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  line-height: 1.6rem;
+  margin-left: -200px;
+}
+
+.above_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.above_footer h3 {
+  margin-left: 15px;
+}
+
+.links_list {
+  border-top-style: double;
+  border-color: rgb(226, 226, 226);
+}
+
+.nyt_footer_logo {
+  padding-top: 40px;
+}
+
+.nyt {
+  height: 13px;
+  width: 13px;
+  color: black;
+}
+
+.subscribe a {
+  text-decoration: none;
+  color: black;
+  line-height: 20px;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.border-icons a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.border-icons {
+  padding-bottom: 20px;
+}
+
+.more ul {
+  border-right: 1px solid rgb(226, 226, 226);
+  margin-right: 65px;
+}
+
+.mobile {
+  padding-top: 10px;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+.education {
+  padding-bottom: 10px;
+}
+
+.above_footer li {
+  text-decoration: none;
+  color: black;
+  line-height: 24px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+footer p {
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-top: 1px solid rgb(226, 226, 226);
 }
