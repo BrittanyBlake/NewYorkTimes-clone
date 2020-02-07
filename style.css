@@ -24,6 +24,12 @@ nav {
   margin-top: 5px;
 }
 
+.nav-button{
+  background: none;
+  border:none;
+  margin-top: -15px;
+}
+
 #space {
   margin-top: -10px;
 }
@@ -434,6 +440,10 @@ label {
   display: flex;
 }
 
+.articles a{
+  text-decoration: none;
+}
+
 .articles img {
   height: 150px;
   width: 250px;
@@ -484,7 +494,9 @@ label {
   margin-top: 14px;
   display: flex;
 }
-
+.row-two a{
+  text-decoration: none;
+}
 .row-two img {
   height: 150px;
   width: 250px;
@@ -542,6 +554,10 @@ label {
   margin: 3px 0;
   padding-top: 10px;
   border-top: 1px solid black;
+}
+
+.row-three a{
+  text-decoration: none;
 }
 
 .row-three img {
