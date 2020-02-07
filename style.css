@@ -251,7 +251,7 @@ aside span {
   margin-bottom: 0;
 }
 
-.first_p{
+.first_p {
   grid-row: 1;
   grid-column: 2/6;
 }
@@ -271,14 +271,13 @@ aside span {
   line-height: 17px;
   margin-top: -10px;
   padding-bottom: 20px;
-  
 }
 
-.larry{
+.larry {
   grid-row: 8;
 }
 
-.universe{
+.universe {
   grid-row: 3;
   grid-column: 2;
   padding-top: 30px;
@@ -288,7 +287,7 @@ aside span {
   line-height: 17px;
 }
 
-.time{
+.time {
   grid-row: 3;
   grid-column: 3;
   padding-top: 30px;
@@ -300,7 +299,7 @@ aside span {
   padding-right: 20px;
 }
 
-.distant{
+.distant {
   grid-row: 3;
   grid-column: 4;
   padding-top: 30px;
@@ -311,7 +310,7 @@ aside span {
   line-height: 17px;
 }
 
-.coffee{
+.coffee {
   grid-row: 3;
   grid-column: 5;
   padding-top: 30px;
@@ -322,7 +321,7 @@ aside span {
   line-height: 17px;
 }
 
-.enough{
+.enough {
   grid-row: 6;
   grid-column: 2;
   font-family: Arial, Helvetica, sans-serif;
@@ -331,7 +330,7 @@ aside span {
   line-height: 17px;
 }
 
-.inflation{
+.inflation {
   grid-row: 6;
   grid-column: 3;
   font-family: Arial, Helvetica, sans-serif;
@@ -340,7 +339,7 @@ aside span {
   line-height: 17px;
 }
 
-.fluctuation{
+.fluctuation {
   grid-row: 6;
   grid-column: 4;
   font-family: Arial, Helvetica, sans-serif;
@@ -350,7 +349,7 @@ aside span {
   padding-left: 10px;
 }
 
-.expansion{
+.expansion {
   grid-row: 6;
   grid-column: 5;
   font-family: Arial, Helvetica, sans-serif;
