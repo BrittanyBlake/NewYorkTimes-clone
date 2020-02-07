@@ -24,6 +24,12 @@ nav {
   margin-top: 5px;
 }
 
+.nav-button{
+  background: none;
+  border:none;
+  margin-top: -15px;
+}
+
 #space {
   margin-top: -10px;
 }
@@ -94,6 +100,18 @@ img {
   color: rgb(51 51 51);
 }
 
+aside a {
+  text-decoration: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+}
+
 .author a {
   text-decoration-color: rgb(51 51 51);
   color: black;
@@ -106,6 +124,7 @@ img {
   font-weight: 500;
   color: rgb(51 51 51);
 }
+
 .main_content .main_icons {
   grid-column: 3;
   display: flex;
@@ -132,10 +151,33 @@ img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  grid-column: 2/4;
+}
+
+p {
+  grid-column: 2/6;
+}
+
+aside p {
+  display: flex;
+}
+
+footer p {
+  align-items: center;
+}
+
 .paragraph_one p,
-h3,
 .more_articles {
   grid-column: 2/4;
+}
+
+.second_content h3 {
+  grid-column: 2/6;
 }
 
 .more_articles {
@@ -175,10 +217,6 @@ aside {
   margin-top: -600px;
 }
 
-aside p {
-  display: flex;
-}
-
 aside img {
   display: flex;
   justify-content: space-between;
@@ -205,19 +243,10 @@ aside span {
   color: rgb(51, 51, 51);
 }
 
-aside a {
-  text-decoration: none;
-}
-
 .second_content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-}
-
-.second_content h3,
-p {
-  grid-column: 2/6;
 }
 
 .second_content img {
@@ -225,13 +254,6 @@ p {
   width: 900px;
   grid-column: 2/6;
   padding-bottom: 20px;
-}
-
-h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  color: black;
 }
 
 .second_content p {
@@ -279,6 +301,42 @@ h3 {
   line-height: 18px;
 }
 
+.policy a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: rgb(50, 104, 145);
+  text-decoration: none;
+}
+
+.editor a {
+  text-decoration: none;
+  color: black;
+  white-space: nowrap;
+}
+
+.side a {
+  font-size: 19px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+}
+
+.subscribe a {
+  text-decoration: none;
+  color: black;
+  line-height: 20px;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.border-icons a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 #version a {
   color: rgb(102, 102, 102);
 }
@@ -292,6 +350,7 @@ h3 {
   margin-left: 100px;
   text-decoration: none;
 }
+
 #bottom-line1 {
   width: 1200px;
   margin-top: 30px;
@@ -328,7 +387,9 @@ h3 {
 form {
   grid-column: 5/8;
   grid-row: 1;
-  margin-top: 20px;
+  margin: 3px 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 220px;
 }
 
 input[type="text"] {
@@ -355,13 +416,6 @@ label {
   color: rgb(153, 153, 153);
 }
 
-.policy a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
-  color: rgb(50, 104, 145);
-  text-decoration: none;
-}
-
 .bottom .policy {
   grid-row: 4;
   grid-column: 5;
@@ -384,6 +438,10 @@ label {
   grid-column: 2/6;
   margin-top: 14px;
   display: flex;
+}
+
+.articles a{
+  text-decoration: none;
 }
 
 .articles img {
@@ -436,7 +494,9 @@ label {
   margin-top: 14px;
   display: flex;
 }
-
+.row-two a{
+  text-decoration: none;
+}
 .row-two img {
   height: 150px;
   width: 250px;
@@ -481,14 +541,8 @@ label {
   margin-left: 100px;
 }
 
-form {
-  margin: 3px 0px;
-  border-bottom: 1px solid black;
-  padding-bottom: 220px;
-}
-
 .stories {
-  margin: 3px 0px;
+  margin: 3px 0;
   border-bottom: 1px solid black;
   padding-bottom: 173px;
 }
@@ -496,8 +550,14 @@ form {
 .row-three {
   grid-row: 18;
   grid-column: 2/5;
-  margin-top: 14px;
   display: flex;
+  margin: 3px 0;
+  padding-top: 10px;
+  border-top: 1px solid black;
+}
+
+.row-three a{
+  text-decoration: none;
 }
 
 .row-three img {
@@ -506,6 +566,7 @@ form {
   width: 250px;
   margin-left: -90px;
 }
+
 .row-three .img-six {
   margin-top: 15px;
   margin-left: -30px;
@@ -560,31 +621,11 @@ form {
   margin-left: -90px;
 }
 
-.editor a {
-  text-decoration: none;
-  color: black;
-  white-space: nowrap;
-}
-
-.row-three {
-  margin: 3px 0px;
-  padding-top: 10px;
-  border-top: 1px solid black;
-}
-
 .side {
   grid-column: 6/8;
   grid-row: 6;
   margin-top: 14px;
   display: flex;
-}
-
-.side a {
-  font-size: 19px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 500;
-  color: rgb(102, 102, 102);
-  text-decoration: none;
 }
 
 .side li {
@@ -609,6 +650,8 @@ form {
   grid-row: 26;
   grid-column: 2/7;
   margin-left: -30px;
+  border-top-style: double;
+  border-color: rgb(226, 226, 226);
 }
 
 .above_footer li {
@@ -617,8 +660,8 @@ form {
   font-size: 14px;
   font-weight: 500;
   color: black;
-  line-height: 1.6rem;
   margin-left: -200px;
+  line-height: 24px;
 }
 
 .above_footer {
@@ -632,11 +675,6 @@ form {
   margin-left: 15px;
 }
 
-.links_list {
-  border-top-style: double;
-  border-color: rgb(226, 226, 226);
-}
-
 .nyt_footer_logo {
   padding-top: 40px;
 }
@@ -645,21 +683,6 @@ form {
   height: 13px;
   width: 13px;
   color: black;
-}
-
-.subscribe a {
-  text-decoration: none;
-  color: black;
-  line-height: 20px;
-  font-size: 11px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-}
-
-.border-icons a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
 }
 
 .border-icons {
@@ -678,27 +701,6 @@ form {
 
 .education {
   padding-bottom: 10px;
-}
-
-.above_footer li {
-  text-decoration: none;
-  color: black;
-  line-height: 24px;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-}
-
-footer a {
-  text-decoration: none;
-  color: rgb(102, 102, 102);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  font-weight: 400;
-}
-
-footer p {
-  align-items: center;
 }
 
 footer {
