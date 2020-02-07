@@ -246,14 +246,20 @@ aside span {
 
 .second_content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+  grid-template-rows: 110px 110px 110px 110px 110px 110px 110px 50px;
+  margin-bottom: 0;
+}
+
+.first_p{
+  grid-row: 1;
+  grid-column: 2/6;
 }
 
 .second_content img {
   height: 600px;
-  width: 900px;
-  grid-column: 2/6;
+  width: 950px;
+  grid-column: 2/7;
   padding-bottom: 20px;
 }
 
@@ -265,6 +271,93 @@ aside span {
   line-height: 17px;
   margin-top: -10px;
   padding-bottom: 20px;
+  
+}
+
+.larry{
+  grid-row: 8;
+}
+
+.universe{
+  grid-row: 3;
+  grid-column: 2;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+.time{
+  grid-row: 3;
+  grid-column: 3;
+  padding-top: 30px;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  padding-right: 20px;
+}
+
+.distant{
+  grid-row: 3;
+  grid-column: 4;
+  padding-top: 30px;
+  padding-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+.coffee{
+  grid-row: 3;
+  grid-column: 5;
+  padding-top: 30px;
+  padding-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+.enough{
+  grid-row: 6;
+  grid-column: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+.inflation{
+  grid-row: 6;
+  grid-column: 3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+.fluctuation{
+  grid-row: 6;
+  grid-column: 4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  padding-left: 10px;
+}
+
+.expansion{
+  grid-row: 6;
+  grid-column: 5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  padding-left: 10px;
 }
 
 .main_content p {
