@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -24,9 +25,9 @@ nav {
   margin-top: 5px;
 }
 
-.nav-button{
+.nav-button {
   background: none;
-  border:none;
+  border: none;
   margin-top: -15px;
 }
 
@@ -440,7 +441,7 @@ label {
   display: flex;
 }
 
-.articles a{
+.articles a {
   text-decoration: none;
 }
 
@@ -494,9 +495,11 @@ label {
   margin-top: 14px;
   display: flex;
 }
-.row-two a{
+
+.row-two a {
   text-decoration: none;
 }
+
 .row-two img {
   height: 150px;
   width: 250px;
@@ -556,7 +559,7 @@ label {
   border-top: 1px solid black;
 }
 
-.row-three a{
+.row-three a {
   text-decoration: none;
 }
 
@@ -703,10 +706,25 @@ label {
   padding-bottom: 10px;
 }
 
-footer {
+.footer {
   display: flex;
   justify-content: space-around;
   margin-left: 150px;
   margin-right: 150px;
   border-top: 1px solid rgb(226, 226, 226);
+  margin-bottom: 50px;
+}
+
+.sticky {
+  display: flex;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border-top: 1px solid black;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
